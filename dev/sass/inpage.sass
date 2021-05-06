@@ -1,0 +1,377 @@
+.--medium
+  font-weight: 500!important
+.--light-gray
+  color: #B7B7B7!important
+
+body
+  padding-top: 120px
+
+header
+  border-bottom: solid 1px #eee
+  box-shadow: 2px 0 10px 1px #eeeeee
+  position: fixed
+  top: 0
+  width: 100%
+  left: 0
+  background: white
+  z-index: 999
+  menu
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+    height: 120px
+    transition: height ease .3s
+    &.slim
+      height: 80px
+      & > a img
+        width: 150px
+      nav
+        ul
+          li
+            +itoREM(15)
+    & > a img
+      transition: transform ease .2s, width ease .2s
+      cursor: pointer
+      &:hover
+        transform: scale(1.01)
+    nav
+      display: flex
+      justify-content: space-between
+      width: 100%
+      ul
+        margin: 0
+        margin-left: 60px
+        align-items: center
+        display: flex
+        li
+          display: inline-block
+          +toREM(18)
+          color: #737373
+          margin: 0 20px
+          font-weight: 500
+          position: relative
+          transition: color ease .3s, font-size ease .2s
+          &:hover, &.active
+            color: $mainColor
+            &::after
+              width: 22px
+          &::after
+            content: ""
+            width: 0px
+            height: 2px
+            background: $mainColor
+            position: absolute
+            bottom: -2px
+            right: 0
+            transition: width ease .3s
+      a
+        margin: 0
+
+.bigger
+  h2
+    font-weight: 900
+  p
+    +toREM(18)
+
+.section-title
+  color: #3A3A3A
+  +toREM(36)
+
+section#mainSection
+  height: 800px
+  display: flex
+  align-items: center
+  position: relative
+  &::after
+    content: ""
+    width: 1400px
+    height: 1400px
+    background-image: url('../img/background-header.svg')
+    background-repeat: no-repeat
+    background-position: center
+    position: absolute
+    background-size: contain
+    top: 20px
+    right: 0
+    z-index: -1
+  .ma-image
+    position: absolute
+    top: 0
+    right: -220px
+
+.heading-section
+  h1
+    +toREM(50)
+    color: black
+  p
+    color: #878787
+    +toREM(18)
+
+section.virtualMarket
+  .info-group
+    padding: 20px 0
+    transition: padding ease .4s, box-shadow ease .4s
+    &:fisrt-child
+      margin-top: -30px
+    p
+      margin: 0
+    &.hoverable
+      img
+        filter: saturate(0)
+        opacity: .4
+        transition: all ease .3s
+      &:hover
+        padding: 20px 10px
+        background: white
+        border: solid 1px #eee
+        box-shadow: 0 0 7px 1px #eeeeee80
+        img
+          filter: saturate(1)
+          opacity: 1
+    h4
+      color: #656678
+      +toREM(20)
+    h3
+      color: #656678
+      +toREM(24)
+      font-weight: 400
+
+    p
+      color: #878787
+      font-weight: 300
+
+.products-circle
+  $height: 520px
+  $width: 520px
+  height: $height
+  width: $width
+  border: solid 1px #ccc
+  border-radius: 10000px
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 100px auto 0
+  position: relative
+  .stage
+    text-align: center
+    width: 500px
+    h3
+      +toREM(30)
+      color: $mainColor
+    p
+      +toREM(18)
+      color: #C5C5C5
+      width: 60%
+      margin: 20px auto 0
+      line-height: 30px
+  .orbs
+    & > div
+      width: $width/4.5
+      height: $height/4.5
+      background: white
+      border: solid 1px #eeeeee8f
+      box-shadow: 0px 3px 8px 1px #C5C5C550
+      position: absolute
+      border-radius: 1000px
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: all ease .3s
+      &:hover, &.active
+        background-color: #5F5F5F
+        cursor: pointer
+        img
+          filter: brightness(10)
+      &:nth-child(1)
+        top: 0
+        left: 50%
+        margin-left: -(($width/4.5)/2)
+        margin-top: -(($height/4.5)/2)
+
+      &:nth-child(2)
+        bottom: 0
+        left: 50%
+        margin-left: -(($width/4.5)/2)
+        margin-bottom: -(($height/4.5)/2)
+
+      &:nth-child(3)
+        top: 50%
+        left: 0
+        margin-left: -(($width/4.5)/2)
+        margin-top: -(($height/4.5)/2)
+
+      &:nth-child(4)
+        top: 50%
+        right: 0
+        margin-right: -(($width/4.5)/2)
+        margin-top: -(($height/4.5)/2)
+
+      &:nth-child(5)
+        top: 25%
+        left: 25%
+        margin-left: -(($width/4.5)/1)
+        margin-top: -(($height/4.5)/1)
+
+      &:nth-child(6)
+        bottom: 25%
+        left: 25%
+        margin-left: -(($width/4.5)/1)
+        margin-bottom: -(($height/4.5)/1.1)
+
+      &:nth-child(7)
+        bottom: 25%
+        right: 25%
+        margin-right: -(($width/4.5)/1)
+        margin-bottom: -(($height/4.5)/1)
+
+      &:nth-child(8)
+        top: 25%
+        right: 25%
+        margin-right: -(($width/4.5)/1)
+        margin-top: -(($height/4.5)/1)
+
+section#solutions
+  position: relative
+  .brands
+    align-items: center
+    justify-content: space-between
+    img
+      width: fit-content
+      width: -moz-fit-content
+      height: fit-content
+      height: -moz-fit-content
+  .text-block
+    p
+      color: #B7B7B7
+      +toREM(16)
+      font-weight: 500
+  &::after
+    content: ""
+    width: 1400px
+    height: 1400px
+    background-image: url('../img/background-header.svg')
+    background-repeat: no-repeat
+    background-position: center
+    position: absolute
+    background-size: contain
+    top: -220px
+    right: -900px
+    z-index: -1
+
+section#everything
+  .items
+    justify-content: center
+    .item
+      border: solid 1px #eee
+      background: white
+      box-shadow: 0 5px 7px 1px #eeeeee90
+      img
+        width: 100%
+      a
+        width: 100%
+        background: $mainColor
+        color: white
+        display: block
+        text-align: center
+        padding: 30px 0
+        font-weight: 500
+        +toREM(18)
+        text-decoration: none!important
+        transition: background ease .3s
+        &:hover
+          background: #e01920
+          & ~ .capsule
+            h4
+              color: white
+      .capsule
+        padding: 30px
+        text-align: center
+        h4
+          +toREM(19)
+          color: #1f3309
+          font-weight: 500
+        p
+          font-weight: 500
+          +toREM(14)
+          color: #B8B7B7
+          margin: 25px 0
+
+section#contactArea
+  background: linear-gradient(0deg, #D4E8FF, transparent)
+
+.form-title
+  +toREM(50)
+  font-weight: 500
+  line-height: 3.8rem
+form
+  .form-group
+    position: relative
+    label
+      position: absolute
+      color: #b9b9b9
+      top: 8px
+      left: 18px
+      background: white
+      padding: 6px 15px
+      transition: all ease .3s
+      width: 80%
+      +toREM(16)
+    input, textarea, select
+      border: solid 1px #9B9797
+      border-radius: 4px
+      padding: 20px 18px 7px
+      outline: none!important
+      box-shadow: none!important
+      height: auto
+      +toREM(15)
+      &:focus
+        border-color: $mainColor
+    select
+      padding: 25px 18px 7px
+  .policy
+    +toREM(14)
+    color: black
+
+.gray-section
+  background: $secColor
+  padding: 45px 35px
+  border-radius: 20px
+  position: relative
+  h2
+    +toREM(36)
+  p
+    +toREM(20)
+  .image-absolutize
+    position: absolute
+    right: -2px
+    top: -56px
+
+footer
+  background: $secColor
+  .left-side
+    img
+      filter: brightness(10)
+      margin-bottom: 30px
+  p,h4
+    color: white
+  .right-side
+    h4
+      +toREM(20)
+    p
+      +toREM(14)
+    .social
+      width: 60%
+      display: flex
+      height: 30px
+      justify-content: space-between
+      align-items: center
+      marign-top: 15px
+      img
+        margin: 0
+  .copyright
+    border-top: solid 1px white
+    p
+      width: 100%
+      text-align: center
+      +toREM(16)

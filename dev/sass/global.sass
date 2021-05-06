@@ -1,0 +1,160 @@
+body,.full-banner
+  overflow-x: hidden!important
+  width: 100%
+
+  //VARS
+$mainColor: #F61920
+$secColor: #2D2D2D
+
+// CONVERT FUNC  
+=toREM($v)
+  font-size: ($v/16)+em
+=itoREM($v)
+  font-size: ($v/16)+em!important
+
+*
+  padding: 0
+  margin: 0
+  &::selection
+    background: $mainColor
+    color: white
+
+.flexibilize
+  display: flex
+
+.space-between
+  justify-content: space-between
+
+.justify-center
+  justify-content: center
+
+.line-height-augmented
+  line-height: 30px
+
+.align-center
+  align-items: center
+.image-auto
+  img
+    width: fit-content
+    -moz-width: fit-content
+    height: fit-content
+    -moz-width: fit-content
+
+.container
+  max-width: 1440px
+
+.bg-mainColor
+  background-color: $mainColor
+.bg-secColor
+  background-color: $secColor
+
+.text-white
+  color: white
+
+.text-main
+  color: $mainColor
+
+.text-secondary
+  color: $secColor
+
+.--no-link-style
+  color: inherit!important
+  text-decoration: none!important
+
+h1,h2,h3,h4,h5,h6
+  font-family: 'Roboto', sans-serif
+  font-weight: 500
+p,ul,li,a,div,section,article,ol
+  font-family: 'Roboto', sans-serif
+
+.text-center
+  text-align: center
+
+.my-120
+  margin-top: 120px
+  margin-bottom: 120px
+  @include break-1199
+    margin-top: 40px
+    margin-bottom: 40px
+
+.py-120
+  padding-top: 120px
+  padding-bottom: 120px
+  @include break-1199
+    padding-top: 40px
+    padding-bottom: 40px
+
+.py-80
+  padding-top: 80px
+  padding-bottom: 80px
+  @include break-1199
+    padding-top: 40px
+    padding-bottom: 40px
+
+.py-60
+  padding-top: 60px
+  padding-bottom: 60px
+  @include break-1199
+    padding-top: 30px
+    padding-bottom: 30px
+
+.my-80
+  margin-top: 80px
+  margin-bottom: 80px
+  @include break-1199
+    margin-top: 40px
+    margin-bottom: 40px
+
+.mb-120
+  margin-bottom: 120px
+  @include break-1199
+    margin-bottom: 60px
+
+.mb-140
+  margin-bottom: 140px
+  @include break-1199
+    margin-bottom: 70px
+
+.force-center
+  margin: 0 auto
+
+.mt-40
+  margin-top: 40px
+
+.mt-120
+  margin-top: 120px
+
+.img-fluid
+  width: 100%
+  max-width: fit-content
+
+.img-full-fluid
+  width: 100%
+
+.btn
+  color: white!important
+  font-weight: 500
+  +toREM(18)
+  padding: 7px 50px
+  transition: padding ease .3s
+  &:hover
+    padding: 7px 45px
+
+.btn-main
+  background: $mainColor
+
+.btn-main-white
+  color: $mainColor!important
+  background: white
+  border: solid 2px $mainColor
+
+.btn-baby
+  padding: 7px 25px
+  &:hover
+    padding: 7px 20px
+
+// SLICK BUG FIX
+.slick-track
+  display: flex
+  *
+    outline: none
