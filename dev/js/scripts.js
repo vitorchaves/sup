@@ -1,5 +1,20 @@
 $(document).ready(function () {
 
+  $(".responsive-menu").click(function () {
+    $(this).toggleClass('opened');
+    var $menu = $(".responsive-menu + nav");
+
+    function toggleMenu(menu) {
+      if (menu.hasClass('opened')) {
+        $menu.stop().slideDown('slow').css('display', 'flex');
+      } else {
+        $menu.stop().slideUp('slow');
+      }
+    }
+
+    toggleMenu($(this));
+  });
+
   var nav = $('header menu');
 
   if ($(this).scrollTop() > 150) {

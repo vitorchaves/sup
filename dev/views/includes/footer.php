@@ -1,13 +1,13 @@
 <footer class="pt-5 pb-3">
   <div class="container">
     <div class="row align-center">
-      <aside class="col-md-6 left-side">
+      <aside class="col-md-6 left-side text-center text-md-left">
         <a href="home"><img src="img/supporta-shop.svg" alt="Supporta Shop Logotipo" title="Supporta Shop" width="250"></a>
 
         <p>Oferecemos uma combinação de soluções para descomplicar sua operação online, facilitar a administração e oferecer a melhor experiência na digitalização do seu negócio.</p>
       </aside>
 
-      <aside class="col-md-2 offset-md-4 right-side">
+      <aside class="col-md-3 offset-md-3 right-side text-center text-md-left">
         <h4>Contatos</h4>
         <p>11 98171-4040</p>
         <p>comercial@supporta.shop</p>
@@ -21,7 +21,7 @@
         </div>
       </aside>
     </div>
-    <div class="row pt-5 mt-5 copyright">
+    <div class="row pt-5 mt-5 copyright text-center text-md-left">
       <p>Todos os direitos reservados. 2020-<?=date("Y")?> - Supporta Tecnologia LTDA - 36.237.549/0001-99</p>
     </div>
   </div>

@@ -4,6 +4,12 @@
     <menu>
       <a href="home" title="Home"><img src="img/supporta-shop.svg" alt="Supporta Shop" title="Supporta Shop" width="250"></a>
 
+      <div class="responsive-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
       <nav>
         <ul>
           <li class="<?=($thatView == "produto") ? "active" : "";?>"><a href="produto" class="--no-link-style">Produto</a></li>

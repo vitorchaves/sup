@@ -1,4 +1,4 @@
-body,.full-banner
+body
   overflow-x: hidden!important
   width: 100%
 
@@ -33,15 +33,11 @@ $secColor: #2D2D2D
 
 .align-center
   align-items: center
-.image-auto
-  img
-    width: fit-content
-    -moz-width: fit-content
-    height: fit-content
-    -moz-width: fit-content
 
 .container
   max-width: 1440px
+  @include break-1450
+    max-width: 1180px
 
 .bg-mainColor
   background-color: $mainColor
@@ -73,14 +69,14 @@ p,ul,li,a,div,section,article,ol
 .my-120
   margin-top: 120px
   margin-bottom: 120px
-  @include break-1199
+  @include break-1450
     margin-top: 40px
     margin-bottom: 40px
 
 .py-120
   padding-top: 120px
   padding-bottom: 120px
-  @include break-1199
+  @include break-1450
     padding-top: 40px
     padding-bottom: 40px
 
@@ -137,8 +133,13 @@ p,ul,li,a,div,section,article,ol
   +toREM(18)
   padding: 7px 50px
   transition: padding ease .3s
+  @include break-1450
+    +toREM(15)
+    padding: 7px 35px
   &:hover
     padding: 7px 45px
+    @include break-1450
+      padding: 7px 30px
 
 .btn-main
   background: $mainColor
@@ -150,11 +151,118 @@ p,ul,li,a,div,section,article,ol
 
 .btn-baby
   padding: 7px 25px
+  @include break-1450
+    padding: 7px 20px
   &:hover
     padding: 7px 20px
+    @include break-1450
+      padding: 7px 15px
 
 // SLICK BUG FIX
 .slick-track
   display: flex
   *
     outline: none
+.mt-xs-4
+  @media screen and (max-width: 575px)
+    margin-top: 40px
+.mt-sm-4
+  @media screen and (max-width: 768px)
+    margin-top: 40px
+.mt-md-4
+  @media screen and (max-width: 991px)
+    margin-top: 40px
+.mt-lg-4
+  @media screen and (max-width: 1199px)
+    margin-top: 40px
+
+.mb-xs-4
+  @media screen and (max-width: 575px)
+    margin-bottom: 40px
+.mb-sm-4
+  @media screen and (max-width: 768px)
+    margin-bottom: 40px
+.mb-md-4
+  @media screen and (max-width: 991px)
+    margin-bottom: 40px
+.mb-lg-4
+  @media screen and (max-width: 1199px)
+    margin-bottom: 40px
+
+.mt-xs-3
+  @media screen and (max-width: 575px)
+    margin-top: 30px
+.mt-sm-3
+  @media screen and (max-width: 768px)
+    margin-top: 30px
+.mt-md-3
+  @media screen and (max-width: 991px)
+    margin-top: 30px
+.mt-lg-3
+  @media screen and (max-width: 1199px)
+    margin-top: 30px
+
+.mb-xs-3
+  @media screen and (max-width: 575px)
+    margin-bottom: 30px
+.mb-sm-3
+  @media screen and (max-width: 768px)
+    margin-bottom: 30px
+.mb-md-3
+  @media screen and (max-width: 991px)
+    margin-bottom: 30px
+.mb-lg-3
+  @media screen and (max-width: 1199px)
+    margin-bottom: 30px
+
+.mt-xs-2
+  @media screen and (max-width: 575px)
+    margin-top: 20px
+.mt-sm-2
+  @media screen and (max-width: 768px)
+    margin-top: 20px
+.mt-md-2
+  @media screen and (max-width: 991px)
+    margin-top: 20px
+.mt-lg-2
+  @media screen and (max-width: 1199px)
+    margin-top: 20px
+
+.mb-xs-2
+  @media screen and (max-width: 575px)
+    margin-bottom: 20px
+.mb-sm-2
+  @media screen and (max-width: 768px)
+    margin-bottom: 20px
+.mb-md-2
+  @media screen and (max-width: 991px)
+    margin-bottom: 20px
+.mb-lg-2
+  @media screen and (max-width: 1199px)
+    margin-bottom: 20px
+
+.mt-xs-1
+  @media screen and (max-width: 575px)
+    margin-top: 10px
+.mt-sm-1
+  @media screen and (max-width: 768px)
+    margin-top: 10px
+.mt-md-1
+  @media screen and (max-width: 991px)
+    margin-top: 10px
+.mt-lg-1
+  @media screen and (max-width: 1199px)
+    margin-top: 10px
+
+.mb-xs-1
+  @media screen and (max-width: 575px)
+    margin-bottom: 10px
+.mb-sm-1
+  @media screen and (max-width: 768px)
+    margin-bottom: 10px
+.mb-md-1
+  @media screen and (max-width: 991px)
+    margin-bottom: 10px
+.mb-lg-1
+  @media screen and (max-width: 1199px)
+    margin-bottom: 10px

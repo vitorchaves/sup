@@ -3,10 +3,10 @@
     <div class="col-md-6">
       <h2 class="form-title">Seja um cliente Supporta e leve seu <span class="text-main">e-commerce</span> para outro nível</h2>
 
-      <img src="img/form-image.svg" alt="Ilustração onde um rapaz segura um notebook. Ao fundo, um relógio marca as horas, plantas complementam o ambiente." title-="Formulário de contato" class="mt-4">
+      <img src="img/form-image.svg" alt="Ilustração onde um rapaz segura um notebook. Ao fundo, um relógio marca as horas, plantas complementam o ambiente." title-="Formulário de contato" class="mt-4 adjust-md">
     </div>
 
-    <form class="col-md-6" method="post">
+    <form class="col-md-6 mt-sm-4" method="post">
       <div class="row">
         <div class="col-md-6 form-group">
           <label for="nome">Nome</label>
