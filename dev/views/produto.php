@@ -122,34 +122,34 @@
         <img src="img/jornada-cliente.svg" alt="Dois homens mexendo no celular, fazendo a gestão através do aparelho." title="Acompanhe a jornada de seu cliente" class="img-fluid">
       </div>
 
-      <div class="col-md-5 text-center text-md-left">
+      <div class="col-md-5 text-md-left">
         <h2 class="section-title mb-5">Acompanhe a jornada do seu cliente</h2>
 
-        <div class="info-group row my-1">
+        <div class="info-group row my-1 mt-sm-3">
           <div class="col-2 text-center">
             <img src="img/funil.svg" alt="Ícone Funil" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable mt-sm-3">
+          <div class="col-10">
             <h4>Visão macro e micro do seu funil de vendas</h4>
             <p class="--medium --light-gray mt-3">Compreenda o comportamento em cada macro etapa, mas compreenda também as particularidades de cada visitante.</p>
           </div>
         </div>
 
-        <div class="info-group row my-1">
+        <div class="info-group row my-1 mt-sm-3">
           <div class="col-2 text-center">
             <img src="img/lupa.svg" alt="Ícone Lupa" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable mt-sm-3">
+          <div class="col-10">
             <h4>Integração da visita ao rastreamento</h4>
             <p class="--medium --light-gray mt-3">Você conhece o comportamento do seu cliente?! Sabe como conduzi-lo pela melhor jornada dentro de sua loja?! Entenda hoje!</p>
           </div>
         </div>
 
-        <div class="info-group row my-1">
+        <div class="info-group row my-1 mt-sm-3">
           <div class="col-2 text-center">
             <img src="img/saco-dinheiro.svg" alt="Ícone Saco de Dinheiro" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable mt-sm-3">
+          <div class="col-10">
             <h4>Conciliação financeira completa</h4>
             <p class="--medium --light-gray mt-3">Tenha certeza que todas as suas vendas foram compensadas, e se tornaram em valores reais na sua conta, atualize toda sua contabilidade e financeiro direto pela plataforma.</p>
           </div>

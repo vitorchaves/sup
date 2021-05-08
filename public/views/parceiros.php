@@ -13,15 +13,15 @@
   </div>
 </section>
 
-<section id="virtualMarket" class="virtualMarket my-80">
+<section id="virtualMarket" class="virtualMarket my-80 px-sm-2">
   <div class="container">
     <div class="row justify-center">
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 text-right">
             <img src="img/grana.svg" alt="Ícone Dinheiro" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-10">
             <h3>Controle de estoque nativo <br> integrado</h3>
             <p class="mt-4">Possua um leque de soluções para fazer a gestão de seu estoque e garantir a melhor experiência possível para seu cliente, integre ao seu ERP, controle todas as particularidades, e garanta o máximo de conversão de vendas.</p>
           </div>
@@ -30,10 +30,10 @@
 
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 text-right">
             <img src="img/grafico.svg" alt="Ícone Gráfico" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-10">
             <h3>Melhores soluções de entrega</h3>
             <p class="mt-4">Digitalizações de Operação, esbarram em diversos problemas físicos, por isso a Supporta oferece uma gama de parceiros para facilitarem sua operação logística, desde ferramentas, até o transporte com o melhor custo benefício possível</p>
           </div>
@@ -42,10 +42,10 @@
 
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 text-right">
             <img src="img/calendario.svg" alt="Ícone Calendário" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-10">
             <h3>Integração nativa com <br> antifraude</h3>
             <p class="mt-4">Existe apenas uma coisa que é pior do que não vender, é vender e não receber, tenha total gestão das políticas de antifraude, e garanta um seguro para suas vendas.</p>
           </div>
@@ -59,7 +59,7 @@
 <section class="my-80 py-60 bg-secColor">
   <div class="container">
     <div class="row align-center">
-      <div class="col-md-6 bigger">
+      <div class="col-md-6 bigger text-center text-md-left">
         <div class="row mb-3">
           <div class="col-md-12">
             <h2 class="text-white section-title">Funcionalidades a sua disposição</h2>
@@ -76,7 +76,7 @@
       </div>
 
       <div class="col-md-5 offset-md-1">
-        <img src="img/mulher.svg" alt="Mulher segurando pracheta com gráficos ao redor." title="Funcionalidades a sua disposição.">
+        <img src="img/mulher.svg" alt="Mulher segurando pracheta com gráficos ao redor." title="Funcionalidades a sua disposição." class="img-fluid">
       </div>
 
     </div>
@@ -87,14 +87,14 @@
 <section id="gestaoFullfilmet" class="virtualMarket my-80">
   <div class="container">
     <div class="row align-center">
-      <div class="col-md-5">
+      <div class="col-md-5 text-center text-md-left">
         <h2 class="section-title mb-5">Integrações nativas das maiores demandas do mercado</h2>
 
         <div class="info-group row my-1">
           <div class="col-md-2">
             <img src="img/mercado-pago.svg" alt="Ícone Prancheta" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 mt-sm-3">
             <h4>Meios de Pagamento</h4>
             <p>Integração com os principais players de meios de pagamento, para que você possua as menores taxas, e melhores serviços no recebimento de seus pagamentos.</p>
           </div>
@@ -104,7 +104,7 @@
           <div class="col-md-2">
             <img src="img/circle.svg" alt="Ícone Caixa" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 mt-sm-3">
             <h4>Meios de Entrega</h4>
             <p>Melhores soluções para garantir agilidade, rastreabilidade e melhor custo benefício, para que a entrega não seja um problema na sua operação online</p>
           </div>
@@ -114,12 +114,12 @@
           <div class="col-md-2">
             <img src="img/gad.svg" alt="Ícone Envio" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 mt-sm-3">
             <h4>Monitoramento e Gestão</h4>
             <p>Da gestão do seu tráfego no Analytics, até a conciliação dos boletos, através de nossos parceiros, tenha total gestão e controle sobre seus números</p>
           </div>
         </div>
-        <div class="info-group row mt-5">
+        <div class="info-group row mt-5 mt-sm-1 mb-sm-2">
           <div class="col-md-12">
             <a href="#" class="btn btn-main-white btn-baby">Fale com um especialista</a>
           </div>
@@ -127,7 +127,7 @@
       </div>
 
       <div class="col-md-7 text-right">
-        <img src="img/integracoes.svg" alt="Tela de um celular ao centro com ícones flutuando a sua volta." title="Gestão Fullfilmet">
+        <img src="img/integracoes.svg" alt="Tela de um celular ao centro com ícones flutuando a sua volta." title="Gestão Fullfilmet" class="img-fluid">
       </div>
     </div>
   </div>
@@ -140,7 +140,7 @@
         <h2 class="section-title mb-5">AppStore</h2>
       </div>
     </div>
-    <div class="row justify-center">
+    <div class="row justify-center text-center text-md-left">
       <div class="col-md-4 info-group">
         <div class="row">
           <div class="col-md-10 offset-md-1">
@@ -181,7 +181,7 @@
       </div>
     </div>
 
-    <div class="row justify-center mt-5">
+    <div class="row justify-center mt-5 mt-sm-2 text-center text-md-left">
       <div class="col-md-4 info-group">
         <div class="row">
           <div class="col-md-10 offset-md-1">
@@ -226,7 +226,7 @@
 
 <section id="contactArea" class="contactArea py-80">
   <div class="container">
-    <div class="row">
+    <div class="row text-center text-md-left">
       <div class="col-md-9">
         <h2 class="form-title">Potencialize seu <span class="text-main">negócio</span> com o melhor suporte do mercado </h2>
 

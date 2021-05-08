@@ -134,6 +134,7 @@ header
             display: block
             margin: 10px 0 0 20px
             +itoREM(17)
+            width: fit-content
         a
           width: 100%
           padding: 20px 0!important
@@ -259,14 +260,19 @@ section.virtualMarket
     h4
       color: #656678
       +toREM(20)
+      @include break-575
+        +toREM(18)
     h3
       color: #656678
       +toREM(24)
       font-weight: 400
-
+      @include break-575
+        +toREM(18)
     p
       color: #878787
       font-weight: 300
+      @include break-575
+        +toREM(15)
 
 @mixin circle($base, $h3, $p, $ln, $margin)
   .products-circle
