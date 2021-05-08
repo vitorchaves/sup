@@ -231,6 +231,10 @@ section#mainSection
     @include break-991
       +toREM(14)
 
+#vantagens
+  @include break-575
+    padding: 0 20px
+
 section.virtualMarket
   .info-group
     padding: 20px 0
@@ -492,11 +496,19 @@ form
     +toREM(14)
     color: black
 
+.yourBusiness
+  h5
+    @include break-1199
+      +toREM(16)
+      line-height: 20px
+
 .gray-section
   background: $secColor
   padding: 45px 35px
   border-radius: 20px
   position: relative
+  @include break-1199
+    text-align: center
   h2
     +toREM(36)
   p
@@ -505,6 +517,9 @@ form
     position: absolute
     right: -2px
     top: -56px
+    @include break-1199
+      position: static
+      margin: 15px auto 0
 
 footer
   background: $secColor

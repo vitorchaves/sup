@@ -18,10 +18,10 @@
     <div class="row justify-center">
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 offset-md-0 offset-1 text-left text-sm-right">
             <img src="img/grana.svg" alt="Ícone Dinheiro" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-md-10 col-sm-9 col-8">
             <h3>Tenha maior controle <br> sobre o fluxo de venda</h3>
             <p class="mt-4">Acompanhe a Jornada de seu cliente desde o momento que ele entrou na sua loja, até a conclusão do pagamento, rastreie o comportamento até a conversão.</p>
           </div>
@@ -30,10 +30,10 @@
 
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 offset-md-0 offset-1 text-left text-sm-right">
             <img src="img/grafico.svg" alt="Ícone Gráfico" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-md-10 col-sm-9 col-8">
             <h3>Integre-se com <br> os marketplaces</h3>
             <p class="mt-4">Integração nativa com os principais Marketplaces do mercado, potencialize suas vendas se conectando com os maiores portais de venda nacional.</p>
           </div>
@@ -42,10 +42,10 @@
 
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 offset-md-0 offset-1 text-left text-sm-right">
             <img src="img/calendario.svg" alt="Ícone Calendário" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-md-10 col-sm-9 col-8">
             <h3>Tenha gestão de toda <br> a sua operação</h3>
             <p class="mt-4">Em apenas uma plataforma, controle alterações de pedido, status de pedido, ordens de coleta, pedidos de reembolso, trocas, devoluções, SAC, tenha uma plataforma funcional e não apenas informativa.</p>
           </div>
@@ -58,14 +58,14 @@
 <section id="gestaoFullfilmet" class="virtualMarket my-80">
   <div class="container">
     <div class="row align-center">
-      <div class="col-md-4">
+      <div class="col-md-4 text-center text-md-left">
         <h2 class="section-title mb-5">Gestão Fullfilmet</h2>
 
         <div class="info-group row my-1 hoverable">
           <div class="col-md-2">
             <img src="img/plataforma.svg" alt="Ícone Prancheta" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 collapsable mt-sm-3">
             <h4>Toda operação em uma plataforma</h4>
             <p>Gestão de toda operação das vendas online em uma única plataforma.</p>
           </div>
@@ -75,7 +75,7 @@
           <div class="col-md-2">
             <img src="img/otimizacao.svg" alt="Ícone Caixa" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 collapsable mt-sm-3">
             <h4>Ferramentas para Otimização Logística</h4>
             <p>Lorem Ipsum</p>
           </div>
@@ -85,7 +85,7 @@
           <div class="col-md-2">
             <img src="img/envio.svg" alt="Ícone Envio" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 collapsable mt-sm-3">
             <h4>Soluções nativas de envio</h4>
             <p>Lorem IPsum</p>
           </div>
@@ -95,7 +95,7 @@
           <div class="col-md-2">
             <img src="img/estoque.svg" alt="Ícone estoque" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 collapsable mt-sm-3">
             <h4>Controle de Estoque Nativo Integrado</h4>
             <p>Lorem Ipsum</p>
           </div>
@@ -107,8 +107,8 @@
         </div>
       </div>
 
-      <div class="col-md-8 text-right">
-        <img src="img/fullfilmet.svg" alt="Tela de um celular ao centro com ícones flutuando a sua volta." title="Gestão Fullfilmet">
+      <div class="col-md-8 text-right d-none d-md-block">
+        <img src="img/fullfilmet.svg" alt="Tela de um celular ao centro com ícones flutuando a sua volta." title="Gestão Fullfilmet" class="img-fluid">
       </div>
     </div>
   </div>
@@ -117,39 +117,39 @@
 
 <section id="jornadaCliente" class="virtualMarket my-80">
   <div class="container">
-    <div class="row align-center">
+    <div class="row d-flex flex-column-reverse flex-md-row a align-center">
       <div class="col-md-7">
-        <img src="img/jornada-cliente.svg" alt="Dois homens mexendo no celular, fazendo a gestão através do aparelho." title="Acompanhe a jornada de seu cliente">
+        <img src="img/jornada-cliente.svg" alt="Dois homens mexendo no celular, fazendo a gestão através do aparelho." title="Acompanhe a jornada de seu cliente" class="img-fluid">
       </div>
 
-      <div class="col-md-5">
+      <div class="col-md-5 text-center text-md-left">
         <h2 class="section-title mb-5">Acompanhe a jornada do seu cliente</h2>
 
         <div class="info-group row my-1">
-          <div class="col-md-2 text-center">
+          <div class="col-2 text-center">
             <img src="img/funil.svg" alt="Ícone Funil" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 collapsable mt-sm-3">
             <h4>Visão macro e micro do seu funil de vendas</h4>
             <p class="--medium --light-gray mt-3">Compreenda o comportamento em cada macro etapa, mas compreenda também as particularidades de cada visitante.</p>
           </div>
         </div>
 
         <div class="info-group row my-1">
-          <div class="col-md-2 text-center">
+          <div class="col-2 text-center">
             <img src="img/lupa.svg" alt="Ícone Lupa" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 collapsable mt-sm-3">
             <h4>Integração da visita ao rastreamento</h4>
             <p class="--medium --light-gray mt-3">Você conhece o comportamento do seu cliente?! Sabe como conduzi-lo pela melhor jornada dentro de sua loja?! Entenda hoje!</p>
           </div>
         </div>
 
         <div class="info-group row my-1">
-          <div class="col-md-2 text-center">
+          <div class="col-2 text-center">
             <img src="img/saco-dinheiro.svg" alt="Ícone Saco de Dinheiro" title="" class="img-fluid">
           </div>
-          <div class="col-md-10 collapsable">
+          <div class="col-md-10 collapsable mt-sm-3">
             <h4>Conciliação financeira completa</h4>
             <p class="--medium --light-gray mt-3">Tenha certeza que todas as suas vendas foram compensadas, e se tornaram em valores reais na sua conta, atualize toda sua contabilidade e financeiro direto pela plataforma.</p>
           </div>
@@ -167,36 +167,36 @@
       </div>
     </div>
 
-    <div class="row justify-center">
-      <div class="col-md-3">
-        <div class="row align-center">
-          <div class="col-md-3">
-            <img src="img/carrinho-caixas.svg" alt="Carrinho cheio de caixas">
+    <div class="row justify-center yourBusiness">
+      <div class="col-lg-3">
+        <div class="row align-center text-center text-sm-left">
+          <div class="col-sm-2 col-lg-3 offset-sm-3 offset-lg-0">
+            <img class="img-fluid" src="img/carrinho-caixas.svg" alt="Carrinho cheio de caixas">
           </div>
-          <div class="col-md-8 offset-md-1">
-            <h5 class="text-white line-height-augmented">Total gestão de cadastro de produtos</h5>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="row align-center">
-          <div class="col-md-3">
-            <img src="img/caixas.svg" alt="Carrinho cheio de caixas">
-          </div>
-          <div class="col-md-8 offset-md-1">
-            <h5 class="text-white line-height-augmented">Criação e gestão de categorias de itens</h5>
+          <div class="col-lg-8 col-sm-4">
+            <h5 class="text-white line-height-augmented mt-xs-1 mb-xs-2">Total gestão de cadastro de produtos</h5>
           </div>
         </div>
       </div>
 
-      <div class="col-md-3">
-        <div class="row align-center">
-          <div class="col-md-3">
-            <img src="img/computador.svg" alt="Carrinho cheio de caixas">
+      <div class="col-lg-3">
+        <div class="row align-center text-center text-sm-left">
+          <div class="col-sm-2 col-lg-3 offset-sm-3 offset-lg-0">
+            <img class="img-fluid" src="img/caixas.svg" alt="Carrinho cheio de caixas">
           </div>
-          <div class="col-md-8 offset-md-1">
-            <h5 class="text-white line-height-augmented">Gestão de marcas com páginas</h5>
+          <div class="col-lg-8 col-sm-4">
+            <h5 class="text-white line-height-augmented mt-xs-1 mb-xs-2">Criação e gestão de categorias de itens</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="row align-center text-center text-sm-left">
+          <div class="col-sm-2 col-lg-3 offset-sm-3 offset-lg-0">
+            <img class="img-fluid" src="img/computador.svg" alt="Carrinho cheio de caixas">
+          </div>
+          <div class="col-lg-8 col-sm-4">
+            <h5 class="text-white line-height-augmented mt-xs-1 mb-xs-2">Gestão de marcas com páginas</h5>
           </div>
         </div>
       </div>
@@ -214,10 +214,10 @@
     <div class="row justify-center">
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 text-left text-sm-right">
             <img src="img/supermercado.svg" alt="Ícone Dinheiro" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-10">
             <h4>Gestão multiloja</h4>
             <p class="mt-4">Acompanhe a Jornada de seu cliente desde o momento que ele entrou na sua loja, até a conclusão do pagamento, rastreie o comportamento até a conversão.</p>
           </div>
@@ -226,10 +226,10 @@
 
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 text-left text-sm-right">
             <img src="img/nuvem.svg" alt="Ícone Gráfico" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-10">
             <h4>Integração nativa</h4>
             <p class="mt-4">Integração nativa com os principais Marketplaces do mercado, potencialize suas vendas se conectando com os maiores portais de venda nacional.</p>
           </div>
@@ -238,10 +238,10 @@
 
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 text-left text-sm-right">
             <img src="img/proccess.svg" alt="Ícone Calendário" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-10">
             <h4>Gestão de SEO</h4>
             <p class="mt-4">Em apenas uma plataforma, controle alterações de pedido, status de pedido, ordens de coleta, pedidos de reembolso, trocas, devoluções, SAC, tenha uma plataforma funcional e não apenas informativa.</p>
           </div>
@@ -252,10 +252,10 @@
     <div class="row mt-5 justify-center">
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 text-left text-sm-right">
             <img src="img/editar.svg" alt="Ícone Dinheiro" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-10">
             <h4>Easy-do personalizado</h4>
             <p class="mt-4">Acompanhe a Jornada de seu cliente desde o momento que ele entrou na sua loja, até a conclusão do pagamento, rastreie o comportamento até a conversão.</p>
           </div>
@@ -264,10 +264,10 @@
 
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 text-left text-sm-right">
             <img src="img/product.svg" alt="Ícone Gráfico" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-10">
             <h4>Sistema de pedidos</h4>
             <p class="mt-4">Integração nativa com os principais Marketplaces do mercado, potencialize suas vendas se conectando com os maiores portais de venda nacional.</p>
           </div>
@@ -276,10 +276,10 @@
 
       <div class="col-md-4 info-group">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-2 text-left text-sm-right">
             <img src="img/marketplaces.svg" alt="Ícone Calendário" title="" class="img-fluid">
           </div>
-          <div class="col-md-10">
+          <div class="col-10">
             <h4>HUB para marketplaces</h4>
             <p class="mt-4">Em apenas uma plataforma, controle alterações de pedido, status de pedido, ordens de coleta, pedidos de reembolso, trocas, devoluções, SAC, tenha uma plataforma funcional e não apenas informativa.</p>
           </div>
@@ -292,14 +292,14 @@
 <section id="b2b" class="my-80 mt-120">
   <div class="container">
     <div class="row gray-section">
-      <div class="col-md-5">
+      <div class="col-lg-5 text-center text-lg-left">
         <h2 class="text-white">B2B & B2C</h2>
 
         <p class="mt-4 --light-gray">Plataformas existem para mediar o seu relacionamento com seu cliente, garanta que ele seja atendido exatamente como quer se atendido.</p>
 
         <p class="mt-4 --medium text-white">Entregue a mesma experiência que você  entrega presencialmente de forma digital.</p>
       </div>
-      <img src="img/b2b.png" alt="Pessoa mexendo no notebook com carrinho na frente." title="B2B & B2C" class="image-absolutize">
+      <img src="img/b2b.png" alt="Pessoa mexendo no notebook com carrinho na frente." title="B2B & B2C" class="img-fluid image-absolutize">
     </div>
   </div>
 </section>
