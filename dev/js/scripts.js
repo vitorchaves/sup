@@ -32,6 +32,7 @@ $(document).ready(function () {
     }
   });
 
+
   var $maImage = $(".ma-image");
 
   function floatingImage(image) {
@@ -66,7 +67,61 @@ $(document).ready(function () {
   }
 
 
-  $(".orbs > div").hover(function () {
+  var counter = 1;
+  $(".products-circle .orbs div").each(function () {
+    $(this).attr('data-position', counter);
+    counter++;
+  });
+
+  var paused = false;
+  var position = 1;
+  setInterval(function () {
+    if (!paused) {
+      $(".products-circle .orbs div").each(function () {
+        if ($(this).data('position') == position) {
+          $(this).trigger('click');
+        }
+      });
+
+      if (position === 8) {
+        position = 0;
+      }
+      position++;
+    }
+  }, 5000);
+
+  function blink(target) {
+    if (paused) {
+      setTimeout(function () {
+        target.fadeOut('fast');
+      }, 0);
+
+      setTimeout(function () {
+        target.fadeIn('fast');
+      }, 1000);
+
+      setTimeout(function () {
+        blink(target);
+      }, 2000);
+    }
+  }
+
+
+  $(".products-circle").hover(function () {
+    paused = true;
+    var $element = $(this).find('.stage h6.info');
+
+    $element.stop().fadeIn('fast');
+
+    setTimeout(function () {
+      blink($element);
+    }, 5000);
+  }, function () {
+    paused = false;
+    $(this).find('.stage h6.info').stop().fadeOut('fast');
+  });
+
+  $(".orbs > div").click(function () {
     if (!$(this).hasClass("active")) {
       $(".orbs > div").removeClass('active');
       $(this).addClass('active');
@@ -107,4 +162,11 @@ $(document).ready(function () {
   $('#telefone').mask('(00) 0000-0000', options);
 
 
+  var $doc = $('html, body');
+  $('.scrollTo').click(function () {
+    $doc.animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1500);
+    return false;
+  });
 });

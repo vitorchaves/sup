@@ -54,7 +54,7 @@
         </div>
         <div class="info-group row mt-5">
           <div class="col-md-12 text-center text-lg-left">
-            <a href="#" class="btn btn-main btn-little">Saiba Mais</a>
+            <a href="#contactArea" class="scrollTo btn btn-main btn-little">Saiba Mais</a>
           </div>
         </div>
       </div>
@@ -108,6 +108,7 @@
       <div class="col-md-8 offset-md-2">
         <div class="products-circle">
           <div class="stage">
+            <h6 class="info">ll</h6>
             <h3>Controle de Estoque</h3>
             <p>Explore o potencial online da sua operação, suportamos multi-estoque, multi-CD, inteligência aplicada ao seu estoque para não perder nenhuma venda.</p>
           </div>
@@ -205,7 +206,7 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-12 mt-sm-4">
+      <div class="col-md-3 col-sm-12 mt-4 mt-md-0">
         <div class="item">
           <img src="img/empresas-pessoas.png" alt="Grupo de pessoas sentadas em reunião." title="Empresas ou Pessoas">
           <div class="capsule">

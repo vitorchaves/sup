@@ -9,8 +9,8 @@
 
       <aside class="col-md-3 offset-md-3 right-side text-center text-md-left">
         <h4>Contatos</h4>
-        <p>11 98171-4040</p>
-        <p>comercial@supporta.shop</p>
+        <p><a href="https://wa.me/5511981714040" target="_blank" class="--no-link-style">11 98171-4040</a></p>
+        <p><a href="https://wa.me/5511981714040" target="_blank" class="--no-link-style">comercial@supporta.shop</a></p>
 
         <h4 class="mt-4">Redes Sociais</h4>
         <div class="social">
@@ -22,7 +22,7 @@
       </aside>
     </div>
     <div class="row pt-5 mt-5 copyright text-center text-md-left">
-      <p>Todos os direitos reservados. 2020-<?=date("Y")?> - Supporta Tecnologia LTDA - 36.237.549/0001-99</p>
+      <p>Todos os direitos reservados. <?=date("Y")?> - Supporta Tecnologia LTDA - 37.068.603/0001-35</p>
     </div>
   </div>
 </footer>
