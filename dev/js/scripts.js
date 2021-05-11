@@ -169,4 +169,31 @@ $(document).ready(function () {
     }, 1500);
     return false;
   });
+
+  $('.clientes').owlCarousel({
+    loop: false,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      350: {
+        items: 2
+      },
+      575: {
+        items: 3
+      },
+      768: {
+        items: 4
+      },
+      1000: {
+        items: 5
+      },
+      1200: {
+        items: 6,
+        nav: true
+      }
+    }
+  })
+
 });

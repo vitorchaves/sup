@@ -74,23 +74,13 @@
       </div>
     </div>
 
-    <div class="row align-center">
-      <div class="col-md-2 col-6 col-sm-4 text-center mt-3">
+    <div class="row">
+      <div class="clientes col-md-12 owl-carousel owl-theme">
         <img class="img-fluid" src="img/clientes/suprimarket.svg" alt="Suprimarket" title="Suprimarket" width="25" height="25">
-      </div>
-      <div class="col-md-2 col-6 col-sm-4 text-center mt-3">
         <img class="img-fluid" src="img/clientes/porto-seguro.svg" alt="Porto Seguro" title="Porto Seguro" width="25" height="25">
-      </div>
-      <div class="col-md-2 col-6 col-sm-4 text-center mt-3">
         <img class="img-fluid" src="img/clientes/copag.svg" alt="Copag" title="Copag" width="25" height="25">
-      </div>
-      <div class="col-md-2 col-6 col-sm-4 text-center mt-3">
         <img class="img-fluid" src="img/clientes/haya.svg" alt="Haya" title="Haya" width="25" height="25">
-      </div>
-      <div class="col-md-2 col-6 col-sm-4 text-center mt-3">
         <img class="img-fluid" src="img/clientes/casamia.svg" alt="Casamia" title="Casamia" width="25" height="25">
-      </div>
-      <div class="col-md-2 col-6 col-sm-4 text-center mt-3">
         <img class="img-fluid" src="img/clientes/belezinha.svg" alt="Belezinha" title="Belezinha" width="25" height="25">
       </div>
     </div>
