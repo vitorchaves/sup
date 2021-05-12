@@ -7,8 +7,10 @@ $(document).ready(function () {
     function toggleMenu(menu) {
       if (menu.hasClass('opened')) {
         $menu.stop().slideDown('slow').css('display', 'flex');
+        $(".resp-filter").stop().fadeIn('fast');
       } else {
         $menu.stop().slideUp('slow');
+        $(".resp-filter").stop().fadeOut('slow');
       }
     }
 

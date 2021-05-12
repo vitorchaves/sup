@@ -111,21 +111,23 @@ header
             transition: width ease .3s
       a
         margin: 0
-
       @include break-575
         position: fixed
         top: 80px
         background: white
-        bottom: 0
+        height: 50%
         left: 0
         right: 0
         display: none
         flex-direction: column
+        z-index: 1000
+        max-height: 250px
         &::after
           content: url('../img/menu.svg')
           position: absolute
-          right: 15px
-          bottom: 100px
+          transform: scale(0.5)
+          top: -30px
+          right: -30px
         ul
           margin: 0
           justify-content: center
@@ -139,10 +141,26 @@ header
             +itoREM(17)
             width: fit-content
         a
-          width: 100%
-          padding: 20px 0!important
-          +itoREM(18)
+          width: 70%
+          padding: 10px 30px!important
+          +itoREM(15)
+          margin: 0 auto 20px
 
+.showMobile
+  display: none
+  @include break-575
+    display: inline
+
+.resp-filter
+  position: fixed
+  background: black
+  opacity: .8
+  top: 0
+  bottom: 0
+  right: 0
+  left: 0
+  z-index: 1
+  display: none
 #b2b
   @include break-991
     h2
