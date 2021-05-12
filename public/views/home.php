@@ -75,7 +75,7 @@
     </div>
 
     <div class="row">
-      <div class="clientes col-md-6 offset-md-3 owl-carousel owl-theme">
+      <div class="clientes col-md-8 offset-md-2 owl-carousel owl-theme">
         <img class="img-fluid" src="img/clientes/suprimarket.svg" alt="Suprimarket" title="Suprimarket" width="25" height="25">
         <img class="img-fluid" src="img/clientes/porto-seguro.svg" alt="Porto Seguro" title="Porto Seguro" width="25" height="25">
         <img class="img-fluid" src="img/clientes/copag.svg" alt="Copag" title="Copag" width="25" height="25">

@@ -405,11 +405,17 @@ section.virtualMarket
   @include circle(270px, 17, 12, 17px, 50px)
 
 .clientes
+  .owl-nav
+    display: none
   .owl-stage
     display: flex
     align-items: center
     img
       margin: 0 auto
+      width: 170px
+      max-width: 170px
+      @include break-575
+        max-width: 120px
 
 section#solutions
   position: relative
@@ -535,7 +541,9 @@ form
       &:focus
         border-color: $mainColor
     select
-      padding: 25px 18px 7px
+      padding: 15px 18px
+      color: #b9b9b9
+      +toREM(16)
   .policy
     +toREM(14)
     color: black

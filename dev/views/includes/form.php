@@ -41,8 +41,8 @@
 
       <div class="row">
         <div class="col-md-6 form-group">
-          <label for="faturamento">Faturamento Anual</label>
           <select id="faturamento" class="form-control">
+            <option value="0" disabled selected>Faturamento anual</option>
             <option value="0">Abaixo de 1 Milhão</option>
             <option value="0">De 1 a 5 Milhões</option>
             <option value="0">De 6 a 20 Milhões</option>
@@ -54,8 +54,8 @@
         </div>
 
         <div class="col-md-6 form-group">
-          <label for="cargo">Cargo</label>
           <select id="cargo" class="form-control">
+            <option value="0" disabled selected>Cargo</option>
             <option value="0">Proprietário</option>
             <option value="0">Presidente ou C-Level</option>
             <option value="0">Diretor</option>
@@ -68,8 +68,8 @@
 
       <div class="row">
         <div class="col-md-12 form-group">
-          <label for="ecommerce">Possui E-commerce</label>
           <select id="ecommerce" class="form-control">
+            <option value="0" disabled selected>Possui E-commerce?</option>
             <option value="0">Sim</option>
             <option value="0">Não</option>
           </select>
