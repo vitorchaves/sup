@@ -181,7 +181,7 @@
             <h4>Gestão FullFilmet</h4>
             <p>Já imaginou em apenas uma ferramenta conseguir visualizar todas as etapas da sua loja?!</p>
           </div>
-          <a href="#" title="Saiba mais" class="d-none d-sm-block">Saiba mais</a>
+          <a href="#" title="Saiba mais">Saiba mais</a>
         </div>
       </div>
 
@@ -192,7 +192,7 @@
             <h4>B2B & B2C</h4>
             <p>Plataformas existem para mediar o seu relacionamento com seu cliente, garanta que ele seja atendido.</p>
           </div>
-          <a href="#" title="Saiba mais" class="d-none d-sm-block">Saiba mais</a>
+          <a href="#" title="Saiba mais">Saiba mais</a>
         </div>
       </div>
 
@@ -203,7 +203,7 @@
             <h4>Empresas ou Pessoas</h4>
             <p>Nós Suportamos cada fase do seu negócio, personalizamos conforme sua necessidade.</p>
           </div>
-          <a href="#" title="Saiba mais" class="d-none d-sm-block">Saiba mais</a>
+          <a href="#" title="Saiba mais">Saiba mais</a>
         </div>
       </div>
     </div>
