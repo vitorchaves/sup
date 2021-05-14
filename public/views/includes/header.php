@@ -1,7 +1,7 @@
 <?php $thatView = preg_replace("/\/index.php\//i", "", $_SERVER['PHP_SELF']);?>
 <header>
   <div class="container">
-    <menu>
+    <menu class="changeDirectionXS">
       <a href="home" title="Home"><img src="img/supporta-shop.svg" alt="Supporta Shop" title="Supporta Shop" width="250"></a>
 
       <div class="responsive-menu">

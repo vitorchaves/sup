@@ -1,5 +1,14 @@
 $(document).ready(function () {
 
+  var height = 0;
+  $(".capsule").each(function () {
+    if ($(this).height() > height) {
+      height = $(this).height();
+    }
+  })
+
+  $('.capsule').css('height', height + 40);
+
   $(".responsive-menu").click(function () {
     $(this).toggleClass('opened');
     var $menu = $(".responsive-menu + nav");
@@ -108,19 +117,10 @@ $(document).ready(function () {
     }
   }
 
-
   $(".products-circle").hover(function () {
     paused = true;
-    var $element = $(this).find('.stage h6.info');
-
-    $element.stop().fadeIn('fast');
-
-    setTimeout(function () {
-      blink($element);
-    }, 5000);
   }, function () {
     paused = false;
-    $(this).find('.stage h6.info').stop().fadeOut('fast');
   });
 
   $(".orbs > div").click(function () {
